@@ -266,3 +266,20 @@ ultima.urlbar.hide.trackingprotection.icon
         display: none !important;
     }
 }
+
+/*Him-Ultima Tweak*/
+#urlbar {
+    opacity: 0;
+    pointer-events: none !important;
+    cursor: default !important;
+    border-radius: 12px;
+    background: rgba(44, 44, 54, 0.85);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+    color: #e0e0e0 !important;
+}
+#urlbar:active,
+#urlbar:focus-within {
+    opacity: 1;
+    width: 50rem !important;
+}
+
