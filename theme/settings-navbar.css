@@ -85,7 +85,7 @@ enable bookmark url editting (add bookmark menu)
         }
         #navigator-toolbox {
             position: absolute !important;
-            top: 14px; left: 20%; right: 20%;
+            top: 24px; left: 20%; right: 20%;
             @media -moz-pref("ultima.navbar.float.fullsize") {left: 12px; right: 12px;}
             @media (max-width: 1250px) {left: 1.5%; right: 1.5%;}
             border-radius: 18px !important;
