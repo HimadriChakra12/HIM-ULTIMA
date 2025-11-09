@@ -10,9 +10,6 @@ while (Get-Process -Name firefox, firefox-developer-edition, firefox-nightly, li
 
 # restart browser (choose one)
 Start-Process "firefox.exe"                   
-Start-Process "firefox-developer-edition.exe" 
-Start-Process "firefox-nightly.exe"           
-Start-Process "librewolf.exe"                 
 
 # clean up user.js
 Start-Sleep -Seconds 5; Set-Location ".."; Remove-Item "user.js" -ErrorAction SilentlyContinue
