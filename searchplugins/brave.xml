@@ -1,0 +1,9 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Brave</ShortName>
+  <Description>Brave Search</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Url type="text/html"
+       method="GET"
+       template="https://search.brave.com/search?q={searchTerms}"/>
+</SearchPlugin>
+

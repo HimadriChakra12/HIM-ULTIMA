@@ -36,6 +36,14 @@ else
   echo "Warning: chrome/user.js not found." >&2
 fi
 
+if [[ -d "chrome/searchplugins" ]]; then
+    mkdir -p "$profile/searchplugins"
+    cp -rf "chrome/searchplugins/"* "$profile/searchplugins/"
+    echo "Copied searchplugins → $profile/searchplugins/"
+else
+    echo "Warning: chrome/searchplugins not found. Skipping."
+fi
+
 # Kill browser processes (firefox variants and librewolf)
 echo "Killing Firefox / LibreWolf processes..."
 # Use pkill with a pattern; ignore errors if no process found
