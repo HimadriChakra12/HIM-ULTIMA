@@ -64,7 +64,7 @@ user_pref("ultima.urlbar.hide.buttons.in.edge", false);
 user_pref("ultima.urlbar.hide.trackingprotection.icon", false);
 
 /* sidebar */
-user_pref("ultima.sidebar.autohide", false);
+user_pref("ultima.sidebar.autohide", true);
 user_pref("ultima.sidebar.seperator", false);
 user_pref("ultima.sidebar.hide.header", true);
 user_pref("ultima.sidebar.revamped.hide.when.horizontal", true);
@@ -88,7 +88,7 @@ user_pref("ultima.tabs.newtabbutton.ontop.2", false);
 user_pref("ultima.tabs.multiline.labels", false);
 user_pref("ultima.tabs.closetabbutton.on.icon", false);
 user_pref("ultima.tabs.always.show.pinned", true);
-user_pref("ultima.tabs.vertical.hide", false);
+user_pref("ultima.tabs.vertical.hide", true);
 user_pref("ultima.tabs.vertical.hide.in.screencorner", false);
 user_pref("ultima.tabs.vertical.hide.in.screenedge", true);
 user_pref("ultima.tabs.vertical.hide.the.bottom.buttons", false);
@@ -404,4 +404,5 @@ user_pref("browser.bookmarks.openInTabClosesMenu", false);
 user_pref("browser.menu.showViewImageInfo", true);
 user_pref("findbar.highlightAll", true);
 user_pref("layout.word_select.eat_space_to_next_word", false);
+
 
