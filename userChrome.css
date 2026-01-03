@@ -20,7 +20,8 @@ License:           https://github.com/soulhotel/FF-ULTIMA/blob/main/LICENSE MPL 
 @import url(theme/settings-context-menus.css);
 @import url(theme/settings-extensions-panel.css);
 
-@import url(theme/settings-urlbar.css);
+/*@import url(theme/settings-urlbar.css);*/
+@import url(theme/alt-urlbar.css);
 @import url(theme/settings-navbar.css);
 @import url(theme/settings-navbar-windowcontrols.css);
 @import url(theme/settings-icons.css);

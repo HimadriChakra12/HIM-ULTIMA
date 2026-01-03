@@ -272,14 +272,21 @@ ultima.urlbar.hide.trackingprotection.icon
     opacity: 0;
     pointer-events: none !important;
     cursor: default !important;
-    border-radius: 12px;
+    border-radius: 12px !important;
     background: rgba(44, 44, 54, 0.85);
     box-shadow: 0 4px 24px rgba(0,0,0,0.18);
     color: #e0e0e0 !important;
 }
 #urlbar:active,
 #urlbar:focus-within {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, 50%) !important;
+    z-index: 200 !important;
     opacity: 1;
-    width: 50rem !important;
+    background: rgba(60, 60, 80, 0.95);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.22);
+    color: #fff !important;
+    padding: 20px !important;
 }
-
