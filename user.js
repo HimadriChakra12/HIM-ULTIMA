@@ -405,4 +405,15 @@ user_pref("browser.menu.showViewImageInfo", true);
 user_pref("findbar.highlightAll", true);
 user_pref("layout.word_select.eat_space_to_next_word", false);
 
-
+user_pref("reader.color_scheme", custom);
+user_pref("reader.content_width", 9);
+user_pref("reader.custom_colors.background", #282828);
+user_pref("reader.custom_colors.foreground", #8ff0a4);
+user_pref("reader.custom_colors.selection-highlight", #99c1f1);
+user_pref("reader.custom_colors.unvisited-links", #f9f06b);
+user_pref("reader.custom_colors.visited-links", #ffa348);
+user_pref("reader.font_size", #6);
+user_pref("reader.font_type", monospace);
+user_pref("reader.line_height", 5);
+user_pref("reader.text_alignment", justify);
+user_pref("reader.word_spacing", 2);
