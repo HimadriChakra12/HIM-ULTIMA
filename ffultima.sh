@@ -5,7 +5,7 @@ read -p "What's the path of your Firefox profile: " profile
 cd "$profile" || { echo "Invalid path"; exit 1; }
 
 # download theme
-git clone https://github.com/himadrichakra12/HIM-ULTIMA.git chrome
+git clone https://github.com/himadrichakra12/HIM-ULTIMA.git chrome --depth 1
 cd chrome || exit 1
 cp user.js ../user.js
 
